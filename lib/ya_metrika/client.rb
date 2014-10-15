@@ -6,7 +6,7 @@ module YaMetrika
     HOST = 'http://api-metrika.yandex.ru'
     REST_METHODS = [:get, :post, :put, :delete]
 
-    def initialize(options)
+    def initialize(options = {})
       options = YaMetrika::Settings.to_hash.merge(options)
       @format = options[:format]
       @oauth_token = options[:oauth_token]

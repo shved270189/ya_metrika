@@ -18,8 +18,27 @@ $ gem install ya_metrika
 ```
 
 ## Usage
+```ruby
+require 'ya_metrika'
 
-TODO: Write usage instructions here
+# Set config params or set its as a hash of options in constructor of YaMetrika::Client
+# YaMetrika::Client.new(oauth_token: '05dd3dd84ff948fdae2bc4fb91f13e22')
+# Default format is json
+YaMetrika::Settings[:format] = :json # or :xml
+YaMetrika::Settings[:oauth_token] = '05dd3dd84ff948fdae2bc4fb91f13e22'
+
+client = YaMetrika::Client.new
+
+response = client.counter(2215573).goal(334423).get
+
+response = client.stat.traffic.summary.get(id: 2138128)
+
+# OR
+client.stat
+client.traffic
+client.summary
+response = client.get(id: 2138128)
+```
 
 ## Contributing
 
