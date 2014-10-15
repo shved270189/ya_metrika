@@ -1,20 +1,21 @@
 # YaMetrika
 
-TODO: Write a gem description
+Ruby gem for [API Yandex Metrika](https://api.yandex.ru/metrika/)
 
 ## Installation
 
 Add this line to your application's Gemfile:
-
-    gem 'ya_metrika'
-
+```ruby
+gem 'ya_metrika'
+```
 And then execute:
-
-    $ bundle
-
+```console
+$ bundle
+```
 Or install it yourself as:
-
-    $ gem install ya_metrika
+```console
+$ gem install ya_metrika
+```
 
 ## Usage
 
@@ -22,7 +23,7 @@ TODO: Write usage instructions here
 
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/ya_metrika/fork )
+1. Fork it ( https://github.com/shved270189/ya_metrika )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
