@@ -1,4 +1,5 @@
 # YaMetrika
+[![Gem Version](https://badge.fury.io/rb/ya_metrika.svg)](http://badge.fury.io/rb/ya_metrika)
 
 Ruby gem for [API Yandex Metrika](https://api.yandex.ru/metrika/)
 

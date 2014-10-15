@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ['Ivan Bondarenko']
   spec.email         = ['bondarenko.dev@gmail.com']
   spec.summary       = 'Ruby gem for API Yandex Metrika'
-  spec.homepage      = ''
+  spec.homepage      = 'https://github.com/shved270189/ya_metrika'
   spec.license       = 'MIT'
 
   spec.files         = `git ls-files -z`.split("\x0")
@@ -17,8 +17,8 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ['lib']
 
-  spec.add_dependency 'rest-client', '~> 1.7.2'
+  spec.add_dependency 'rest-client', '~> 1.7'
 
   spec.add_development_dependency 'bundler', '~> 1.6'
-  spec.add_development_dependency 'rake'
+  spec.add_development_dependency 'rake', '~> 0'
 end
