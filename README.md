@@ -1,4 +1,6 @@
 # YaMetrika
+
+[![Join the chat at https://gitter.im/shved270189/ya_metrika](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/shved270189/ya_metrika?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![Gem Version](https://badge.fury.io/rb/ya_metrika.svg)](http://badge.fury.io/rb/ya_metrika)
 
 Ruby gem for [API Yandex Metrika](https://api.yandex.ru/metrika/)
